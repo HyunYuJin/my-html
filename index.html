@@ -15,8 +15,34 @@
         <link rel="stylesheet" href="./css/normalize.css">
     </head>
     <body>
-        <h1>Test Modernizr</h1>
+        <div class="page">
+            <!-- header -->
+            <header>This is the header.</header>
 
+            <!-- section -->
+            <div class="container">
+                <nav>
+                    <h4 id="navigation-title">This is the navigation section.</h4>
+                    <ul>
+                        <li class="menu-item">menu1</li>
+                        <li class="menu-item">menu2</li>
+                        <li class="menu-item">menu3</li>
+                        <li class="menu-item">menu4</li>
+                    </ul>
+                </nav>
+                <main>
+                    <h1>This is the main content.</h1>
+                    <p>...</p>
+                </main>
+                <aside>
+                    <h4 id="navigation-title">This is an aside section.</h4>
+                    <p>...</p>
+                </aside>
+            </div>
+
+            <footer>This is the footer.</footer>
+        </div>
+        
         <script src="./js/vender/modernizer.js"></script>
         <script>
             if (Modernizr.webgl) {
