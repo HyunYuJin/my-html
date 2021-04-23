@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko" class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <!-- IE Rendering mode -->
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="This is Yu jin's Bolierplate.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- favicon -->
+        <link rel="icon" href="/favicon.ico">
+        <link rel="icon" href="/icon.svg" type="image/svg+xml">
+
+        <link rel="stylesheet" href="./css/normalize.css">
+    </head>
+    <body>
+        <h1>Test Modernizr</h1>
+
+        <script src="./js/vender/modernizer.js"></script>
+        <script>
+            if (Modernizr.webgl) {
+                console.log('지원 합니다!');
+            } else {
+                console.log("지원 안해");
+            }
+        </script>
+    </body>
+</html>
