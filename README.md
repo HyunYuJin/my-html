@@ -1,5 +1,5 @@
 # my-html
-🍽저만의 html bolierplate를 만들어보는 공간입니다.
+🍽저만의 html boilerplate를 만들어보는 공간입니다.
 
 <br />
 
